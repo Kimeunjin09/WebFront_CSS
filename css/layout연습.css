@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.header {
+    background-color: antiquewhite;
+    height: 200px;
+}
+
+.nav {
+   background-color: blueviolet;
+   height: 150px;
+}
+
+.content {
+    background-color: aquamarine;
+    height: 500px;
+    display: flex;
+}
+
+.LeftContent {
+    background-color: blue;
+    width: 200px;
+
+}
+
+.MainContent {
+    background-color: brown;
+    width: 1040px;
+
+}
+
+.RightContent {
+    background-color: coral;
+    width: 200px;
+
+}
+.footer {
+    border: 1px solid black;
+    height: 100px;
+}
