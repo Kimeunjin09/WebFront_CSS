@@ -50,7 +50,6 @@ p[name="name-1"] {background-color: green;}
 
     width: 230px;
     height: 230px;
-   /* transition-duration: 0.5s; */
 }
 
 /* 변화 시간 지정 
@@ -59,6 +58,7 @@ p[name="name-1"] {background-color: green;}
 #hover-test {
     transition-duration: 0.5s;
 }
+
 
 
 /* 상태 선택자 */
@@ -124,8 +124,6 @@ input[name="fruits"]:checked {
     background-repeat: no-repeat; 
     background-size: cover;
 }
-
-
 
 #check1 {
     display: none;
